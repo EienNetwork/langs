@@ -47,6 +47,9 @@
     "command.partner.description": "Ortaklık teklif ekranı.",
     "command.offers.description": "Arsa teklif ekranı.",
 
+    "command.vip.description": "VIP aboneliğiniz hakkında bilgi verir.",
+    "command.givevip.description": "Oyuncuya VIP verirsiniz.",
+
     "message.plot.world.already.exists": "§cArsa dünyası zaten oluşturulmuş!",
     "message.plot.generate.success": "§aArsa dünyası oluşturulmaya başlandı...",
     "message.plot.find.search": " §eSize uygun bir arsa aranıyor...",
@@ -842,5 +845,21 @@
     "form.mail.status.read": "(Okundu)",
     "form.mail.status.new": "(Yeni)",
     "form.mail.status.unread": "(Okunmadı)",
-    "form.mail.default_title": "Posta"
+    "form.mail.default_title": "Posta",
+
+    "message.vip.purchased": "§8»\n§8» §f%player% §3adlı oyuncu §f%vip% §3üyeliği satın aldı. Hayırlı olsun!\n§8»",
+    "message.vip.activated.title": "§6§lVIP OLDUN!",
+    "message.vip.activated": "§e%vip% §füyeliğin aktif edildi!",
+    "message.vip.ended": "§8»\n§8» §6§lVIP SÜRENİZ DOLDU!\n§8» §gVIP üyeliğiniz ve ayrıcalıklarınız sona ermiştir. Bizi tekrar tercih etmek istersen §6eienmc.net/magaza §gadresine göz at.\n§8»",
+    "message.vip.noSubscription": "§cHerhangi bir VIP üyeliğiniz bulunmamaktadır.",
+    "message.vip.subscriptionEnded": "§cVIP süreniz dolmuş.",
+    "message.vip.information": "§8»\n§8» §cVIP türü: §4%vip%\n§8» §cKalan süre: §4%days% gün %hours% saat %minutes% dakika\n§8»",
+    "message.giveVip.invalidType": "§cGeçersiz VIP türü.",
+    "message.giveVip.invalidDay": "§cLütfen geçerli bir gün sayısı girin.",
+    "message.giveVip.args.all": "toplu",
+    "message.giveVip.all.success": "§aBaşarılı bir şekilde toplu vip süresini §2%days% §agün uzattınız.",
+    "message.giveVip.usage": "§cKullanım: /vipver <tür/toplu> <oyuncu> <gün>",
+    "message.giveVip.dayMust": "§cSüre en az 1 gün olmalıdır.",
+    "message.giveVip.success": "§aBaşarılı bir şekilde §2%target% §aadlı oyuncuya §2%days% §agünlük §2%vip% §averildi."
+
 }
