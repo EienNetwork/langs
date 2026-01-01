@@ -195,6 +195,7 @@
     "message.item.enough.error": " §cYeteri kadar eşyanız bulunmuyor!",
     "message.player.inventory.not.empty.and.send.storage.error": " §cEnvanteriniz dolu olduğu için eşya, deponuza eklendi! §7(/depo)",
     "message.player.inventory.item.not.have.enough.error": "\uE162 §cEnvanterinizde yeteri kadar eşya bulunmuyor!",
+    "message.process.cancel": "\uE160 §aİşleminizi başarıyla iptal ettiniz!",
 
     "message.food.full.success": " §aBaşarıyla açlığınız dolduruldu!",
     "message.heal.full.success": " §aBaşarıyla canınız dolduruldu!",
@@ -672,8 +673,9 @@
     "inventory.storage.item.next.page": "§aSonraki Sayfa >",
     "inventory.storage.item.previous.page": "§a< Önceki Sayfa",
 
-    "broadcast.item.clear.alert": "§bEien§fNetwork §r§8» §7Yerdeki eşyaların silinmesine son §p%seconds% §esaniye!",
-    "broadcast.item.clear.success": "§bEien§fNetwork §r§8» §7Yerdeki eşyalar silindi!",
+    "popup.item.clear.alert": "§7Yerdeki eşyaların silinmesine son §p%seconds% §7saniye.",
+    "popup.item.clear.success": "§7Yerdeki eşyalar silindi!",
+
     "broadcast.auction.add": "§l§uIHALE §r§8» §f%username%, §p%item% (x%count%) §7eşyasını ihaleye koydu!",
     "broadcast.auction": "§l§uIHALE §r§8» §f%username%, §p%item% (x%count%) §7ihalesini duyuruyor!\n  §8■ §7Fiyat: §a%price% §2%currency%\n  §8■ §7Anında Satış Fiyatı: §a%instantPrice% §2%currency%",
 
