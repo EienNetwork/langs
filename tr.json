@@ -30,6 +30,8 @@
     "command.rank.description": "Rütbe ekranı.",
     "command.nightmarket.description": "Gece pazarı ekranı.",
 
+    "command.npc.description": "NPC komutları.",
+
     "command.list.description": "Sunucudaki aktif oyuncuları gösterir.",
     "command.tell.description": "Belirtilen oyuncuya özel mesaj gönderir.",
     "command.clear.description": "Envanterinizi temizlemenizi sağlar.",
@@ -196,6 +198,20 @@
 
     "message.food.full.success": " §aBaşarıyla açlığınız dolduruldu!",
     "message.heal.full.success": " §aBaşarıyla canınız dolduruldu!",
+
+    "message.npc.not.found.error": "\uE161 §cBelirtilen NPC bulunamadı!",
+    "message.npc.spawn.success": "\uE160 §aNPC başarıyla oluşturuldu!",
+    "message.npc.remove.success": "\uE160 §aNPC başarıyla kaldırıldı!",
+    "message.npc.rotate.success": "\uE160 §aNPC'nin yönü başarıyla ayarlandı!",
+    "message.npc.nametag.success": "\uE160 §aNPC'nin etiketi başarıyla değiştirildi!",
+    "message.npc.command.success": "\uE160 §aNPC'ye başarıyla komut eklendi!",
+    "message.npc.rotation.alert": "\uE160 §aNPC'nin ayarlamak istediğiniz yönünü §2'/npc rotate [derece]' §aşeklinde yazınız!",
+    "message.npc.command.alert": "\uE160 §aNPC'nin ayarlamak istediğiniz komutunu §2'/npc command [komut]' §aşeklinde yazınız!",
+    "message.npc.nametag.alert": "\uE160 §aNPC'nin değiştirmek istediğiniz etiketini §2'/npc nametag [isim anahtarı]' §aşeklinde yazınız!",
+    "message.npc.interact.alert": "\uE160 §aİşlem yapmak istediğiniz NPC'ye dokunun!",
+    "message.npc.list": "§2NPC - Liste",
+
+    "npc.nametag.test": "TEST",
 
     "message.nightmarket.not.enough.item.error": "\uE162 §cBelirttiğiniz miktar kadar stok bulunmuyor!",
     "message.nightmarket.buy.success": "\uE160 §2%item% (x%count%) §aeşyasını başarıyla satın aldınız!",
