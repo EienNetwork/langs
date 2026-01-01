@@ -52,6 +52,8 @@
     "command.vip.description": "VIP aboneliğiniz hakkında bilgi verir.",
     "command.givevip.description": "Oyuncuya VIP verirsiniz.",
 
+    "command.knockback.description": "Knockback menüsünü açar.",
+
     "message.plot.world.already.exists": "§cArsa dünyası zaten oluşturulmuş!",
     "message.plot.generate.success": "§aArsa dünyası oluşturulmaya başlandı...",
     "message.plot.find.search": " §eSize uygun bir arsa aranıyor...",
@@ -878,6 +880,11 @@
     "message.giveVip.all.success": "§aBaşarılı bir şekilde toplu vip süresini §2%days% §agün uzattınız.",
     "message.giveVip.usage": "§cKullanım: /vipver <tür/toplu> <oyuncu> <gün>",
     "message.giveVip.dayMust": "§cSüre en az 1 gün olmalıdır.",
-    "message.giveVip.success": "§aBaşarılı bir şekilde §2%target% §aadlı oyuncuya §2%days% §agünlük §2%vip% §averildi."
+    "message.giveVip.success": "§aBaşarılı bir şekilde §2%target% §aadlı oyuncuya §2%days% §agünlük §2%vip% §averildi.",
 
+    "form.knockback.title": "Knockback Menüsü",
+    "form.knockback.input.hit": "Hit değeri giriniz:",
+    "form.knockback.input.attack-cooldown:": "Attack cooldown:",
+    "message.knockback.changed": "§aKnockback ayarı kaydedildi."
 }
+
