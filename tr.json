@@ -884,7 +884,8 @@
 
     "form.knockback.title": "Knockback Menüsü",
     "form.knockback.input.hit": "Hit değeri giriniz:",
-    "form.knockback.input.attack-cooldown:": "Attack cooldown:",
+    "form.knockback.input.attack-cooldown": "Attack cooldown:",
     "message.knockback.changed": "§aKnockback ayarı kaydedildi."
 }
+
 
