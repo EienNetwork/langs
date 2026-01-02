@@ -29,8 +29,11 @@
     "command.playershop.description": "Pazar ekranı.",
     "command.rank.description": "Rütbe ekranı.",
     "command.nightmarket.description": "Gece pazarı ekranı.",
+    "command.bounty.description": "Kelle ekranı.",
 
     "command.npc.description": "NPC komutları.",
+
+    "command.mine.description": "Kazı alanı komutları.",
 
     "command.list.description": "Sunucudaki aktif oyuncuları gösterir.",
     "command.tell.description": "Belirtilen oyuncuya özel mesaj gönderir.",
@@ -50,7 +53,7 @@
     "command.offers.description": "Arsa teklif ekranı.",
 
     "command.vip.description": "VIP aboneliğiniz hakkında bilgi verir.",
-    "command.givevip.description": "Oyuncuya VIP verirsiniz.",
+    "command.givevip.description": "VIP abonelik verir.",
 
     "command.knockback.description": "Knockback menüsünü açar.",
 
@@ -245,7 +248,27 @@
     "message.enchantment.exists.error": " §7Bu büyü zaten eşyanızda mevcut!",
     "message.enchantment.success": " §aElinizdeki eşyaya başarıyla büyü basıldı!",
 
+    "message.mine.chance.error": "\uE162 §cŞans 100'den fazla olamaz!",
+    "message.mine.invalid.block.error": "\uE162 §cBlok kimliği geçersiz!",
+    "message.mine.invalid.mine.error": "\uE162 §cKazı alanı kimliği geçersiz!",
+    "message.mine.block.add.success": "\uE160 §aBlok, kazı alanına başarıyla eklendi!",
+    "message.mine.block.remove.success": "\uE160 §aBlok, kazı alanından başarıyla kaldırıldı!",
+    "message.mine.setup.first.alert": "\uE160 §aBirinci konumu seçmek için bir bloğu kırın!",
+    "message.mine.setup.second.alert": "\uE160 §aİkinci konumu seçmek için bir bloğu kırın!",
+    "message.mine.create.success": "\uE160 §aKazı alanı başarıyla oluşturuldu!",
+    "message.mine.delete.success": "\uE160 §aKazı alanı başarıyla silindi!",
+    "message.mine.list": "§aKazı Alanları:",
+    "message.mine.block.not.found.error": "\uE162 §cBelirtilen blok kazı alanında bulunamadı!",
+    "message.mine.reset.specific.success": "\uE160 §2%mine%, §abaşarıyla sıfırlandı!",
+    "message.mine.reset.specific.error": "\uE162 §4%mine%, §csıfırlanırken bir hata oluştu!",
+
     "message.list.text": "§7Sunucuda §p§o%online%/%maxOnline% §r§7oyuncu aktif:\n%list%",
+
+    "message.bounty.offer.create.success": "\uE160 §2%target%'nin §akellesini başarıyla ilana koydunuz!",
+    "message.bounty.offer.remove.success": "\uE160 §2%target%'nin §akellesini başarıyla ilandan kaldırdınız!",
+    "message.bounty.time.expired.alert": "\uE164 §p%target%'nin §ekellesinin ilanının süresi doldu!",
+    "message.bounty.kill.alert": "\uE160 §2%target%'nin §akellesini aldığınız için §2%reward% %currency% §akazandınız!",
+    "message.bounty.offer.finish.alert": "\uE160 §aİlana koyduğunuz §2%target%'nin §akellesi §2%killer% §atarafından alındı!",
 
     "message.gift.staff": " §8[§g%sender% §e-> §g%receiver%§8] §7hediye işlemi gerçekleşti!\n  §8■ §f%item% §7(x%count%)\n  §8■ §fNot: §g%note%\n  §8■ §fBüyüler: \n§g%enchantments%",
 
@@ -363,6 +386,12 @@
     "form.settings.toggle.text.setting.isReceiveGift": "Hediye Alımı",
     "form.settings.toggle.text.setting.isTeleportRequest": "Işınlanma İsteği Alımı",
     "form.settings.toggle.text.setting.isAutoSellNotification": "Otomatik Satış Bildirimi",
+
+    "form.bounty.title": "Kelle",
+    "form.bounty.button.text.create.offer": "İlan Oluştur",
+    "form.bounty.button.text.remove.offer": "Mevcut İlanı Kaldır",
+    "form.bounty.button.text.list.offers": "İlanlar",
+    "form.bounty.input.text.reward": "Ödül:",
 
     "form.home.title": "Ev",
     "form.home.button.create": "Ev Oluştur",
@@ -675,11 +704,25 @@
     "inventory.storage.item.next.page": "§aSonraki Sayfa >",
     "inventory.storage.item.previous.page": "§a< Önceki Sayfa",
 
+    "inventory.bounty.title": "no_inventory_large:Kelle (%currentPage% / %maxPage%)",
+    "inventory.bounty.item.refresh": "§eSayfayı Yenile",
+    "inventory.bounty.item.next.page": "§aSonraki Sayfa >",
+    "inventory.bounty.item.previous.page": "§a< Önceki Sayfa",
+    "inventory.bounty.item.sort.expensive": "§7Sırala:\n  §r§a■ Yüksekten Düşüğe\n  §r§8Düşükten Yükseğe",
+    "inventory.bounty.item.sort.cheap": "§7Sırala:\n  §r§8Yüksekten Düşüğe\n  §r§a■ Düşükten Yükseğe",
+    "inventory.bounty.item.custom.name": "§p%target%'nin §eKellesi",
+    "inventory.bounty.item.lore.line.1": " ",
+    "inventory.bounty.item.lore.line.2": "§7İlan Oluşturan: §e%owner%",
+    "inventory.bounty.item.lore.line.3": "§7Ödül: §a%reward% §2%currency%",
+    "inventory.bounty.item.lore.line.4": " ",
+    "inventory.bounty.item.lore.line.5": "§7Kalan Süre: §p%hours% saat, %minutes% dakika, %seconds% saniye",
+
     "popup.item.clear.alert": "§7Yerdeki eşyaların silinmesine son §p%seconds% §7saniye.",
     "popup.item.clear.success": "§7Yerdeki eşyalar silindi!",
 
     "broadcast.auction.add": "§l§uIHALE §r§8» §f%username%, §p%item% (x%count%) §7eşyasını ihaleye koydu!",
     "broadcast.auction": "§l§uIHALE §r§8» §f%username%, §p%item% (x%count%) §7ihalesini duyuruyor!\n  §8■ §7Fiyat: §a%price% §2%currency%\n  §8■ §7Anında Satış Fiyatı: §a%instantPrice% §2%currency%",
+    "broadcast.mine.reset": "§pKazı alanları §esıfırlanıyor...",
 
     "clan.role.leader": "Lider",
     "clan.role.coLeader": "Yardımcı Lider",
@@ -887,6 +930,3 @@
     "form.knockback.input.attack-cooldown": "Attack cooldown:",
     "message.knockback.changed": "§aKnockback ayarı kaydedildi."
 }
-
-
-
